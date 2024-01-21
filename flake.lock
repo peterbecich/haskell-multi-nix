@@ -5,11 +5,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1678379998,
-        "narHash": "sha256-TZdfNqftHhDuIFwBcN9MUThx5sQXCTeZk9je5byPKRw=",
+        "lastModified": 1704982712,
+        "narHash": "sha256-2Ptt+9h8dczgle2Oo6z5ni5rt/uLMG47UFTR1ry/wgg=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "c13d60b89adea3dc20704c045ec4d50dd964d447",
+        "rev": "07f6395285469419cf9d078f59b5b49993198c00",
         "type": "github"
       },
       "original": {
@@ -18,13 +18,29 @@
         "type": "github"
       }
     },
+    "halogen-chess": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1705789774,
+        "narHash": "sha256-big2kzWKXNRedCWJOAvaaaTP5VJ1+nFAx8xT/MvNCGw=",
+        "owner": "peterbecich",
+        "repo": "halogen-chess",
+        "rev": "443028f3ce8f1960d2bcd6f208c0cc601833a218",
+        "type": "github"
+      },
+      "original": {
+        "owner": "peterbecich",
+        "repo": "halogen-chess",
+        "type": "github"
+      }
+    },
     "haskell-flake": {
       "locked": {
-        "lastModified": 1686160859,
-        "narHash": "sha256-UE+0TQHyPxF8jhbLEeqvNQAy7B79bBix/rpFrf5nsn0=",
+        "lastModified": 1705079807,
+        "narHash": "sha256-8snpmo0PGMqirgVnw9OnHF2FtsVkcdWLup+TzV3PCIE=",
         "owner": "srid",
         "repo": "haskell-flake",
-        "rev": "908a59167f78035a123ab71ed77af79bed519771",
+        "rev": "55efd0cbf1b5b4a402dc88c3c962c24e13f0fd8b",
         "type": "github"
       },
       "original": {
@@ -35,16 +51,15 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1678693419,
-        "narHash": "sha256-bbSv5yqZAW6dz+3f3f3pOUZbxpPN+3OgCljgn7P+nnQ=",
+        "lastModified": 1705822327,
+        "narHash": "sha256-zWtBW34J7BMXT9w2K9gvMxKCTC/AjOlZuC146M6sCfI=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8e3fad82be64c06fbfb9fd43993aec9ef4623936",
+        "rev": "49e5ffd3a9feef4196e30068a3e6d6c3ebae4bfe",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -52,11 +67,11 @@
     "nixpkgs-lib": {
       "locked": {
         "dir": "lib",
-        "lastModified": 1678375444,
-        "narHash": "sha256-XIgHfGvjFvZQ8hrkfocanCDxMefc/77rXeHvYdzBMc8=",
+        "lastModified": 1703961334,
+        "narHash": "sha256-M1mV/Cq+pgjk0rt6VxoyyD+O8cOUiai8t9Q6Yyq4noY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "130fa0baaa2b93ec45523fdcde942f6844ee9f6e",
+        "rev": "b0d36bd0a420ecee3bc916c91886caca87c894e9",
         "type": "github"
       },
       "original": {
@@ -70,6 +85,7 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
+        "halogen-chess": "halogen-chess",
         "haskell-flake": "haskell-flake",
         "nixpkgs": "nixpkgs"
       }
