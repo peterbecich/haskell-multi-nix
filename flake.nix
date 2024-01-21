@@ -18,14 +18,21 @@
       ];
       perSystem = { self', inputs', pkgs, system, ... }: {
         haskellProjects.default = {
-          autoWire = [ "packages" "apps" "checks" ];
+          # autoWire = [ "packages" "apps" "checks" ];
           # Want to override dependencies?
           # See https://haskell.flake.page/dependency
+          devShell = {
+            tools = hp: {
+              inherit (pkgs) cabal2nix;
+
+            };
+          };
+
         };
         # packages = {
         #   halogen-chess.source = inputs.halogen-chess;
         # };
-        packages.default = self'.packages.bar;
+        # packages.default = self'.packages.baz;
       };
     };
 }

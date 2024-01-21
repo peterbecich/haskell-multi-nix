@@ -1,6 +1,7 @@
 packages:
     ./foo
     ./bar
+    ./
 
 source-repository-package
   type: git
